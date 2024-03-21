@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Survey Form</title>
+    <link  rel="stylesheet"  href="task1.css">
+</head>
+<body>
+    <h1>Student Survey Form</h1>
+    <label>Enter your name:</label>
+    <input type="text" name="username">
+    <br/>
+    <br/>
+    <label>Enter your registration number:</label>
+    <input type="text" name="reg">
+    <br/>
+    <br/>
+    <label>Enter your comments here:</label>
+    <textarea name="comments" cols="30" rows="4"></textarea>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <label>Are you a student:</label>
+    <input type="radio" name="course" value="1">Yes
+    <input type="radio" name="course" value="0">No
+    <br/>
+    <br/>
+    <label>Select your subjects:</label>
+    <br/>
+    <input type="radio" name="PF">Programing fundamental <br/>
+    <input type="radio" name="DLD">DLD <br/>
+    <input type="radio" name="Ethics">Ethics <br/>
+    <br/>
+    <br/>
+    <label>Select your Favorite game:</label>
+    <select name="games">
+        <option value="0" selected="true">Football</option>
+        <option value="1">Cricket</option>
+        <option value="2">Hockey</option>
+    </select>
+    <br/>
+    <input type="button" value="Submit">
+</body>
+</html>
